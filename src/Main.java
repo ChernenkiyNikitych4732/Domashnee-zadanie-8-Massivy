@@ -1,10 +1,10 @@
 import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         // Задача №1
         System.out.println("Задача №1");
         System.out.println("Решение задача №1");
+        System.out.println("Решение задачи №1");
         //Целочисленный массив, заполненный тремя цифрами
         // — 1, 2 и 3 — с помощью ключевого слова new.
         int[] one = new int[3];
@@ -28,6 +28,7 @@ public class Main {
         // В конце строки запятую ставить не надо.
         System.out.println("Задача №2");
         System.out.println("Решение задача №2");
+        System.out.println("Решение задачи №2");
         for (int i = 0; i < one.length; i++) {
             System.out.print(one[i]);
             if (i != one.length - 1)
@@ -56,6 +57,7 @@ public class Main {
         // произвольные элементы третьего массива в обратном порядке
         System.out.println("Задача №3");
         System.out.println("Решение задача №3");
+        System.out.println("Решение задачи №3");
         for (int i = one.length - 1; i >= 0; i--) {
             System.out.print(one[i]);
             if (i != 0) {
@@ -87,6 +89,7 @@ public class Main {
 
         System.out.println("Задача №4");
         System.out.println("Решение задача №4");
+        System.out.println("Решение задачи №4");
         for (int i = 0; i < three.length; i++) {
             if (three[i] % 2 != 0) {
                 three[i] += 1;
